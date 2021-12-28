@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ng.org.hikmahtechis.studentswingcng.AboutApp">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="200sp"
+        android:paddingTop="35dp"
+        android:src="@drawable/faisal"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0b0b0b"
+        android:textSize="20sp"
+        android:layout_marginTop="120sp"
+        android:text="Application Version: 1.2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0b0b0b"
+        android:textSize="20sp"
+        android:layout_marginTop="100sp"
+        android:text="Application Name: Student Wing"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0b0b0b"
+        android:textSize="20sp"
+        android:layout_marginTop="150sp"
+        android:text="Application Developer: Shehu Ibrahim Muhammad"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0B6641"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="65sp"
+        android:text="About App"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0B6641"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="190sp"
+        android:text="Application Team"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0b0b0b"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="480sp"
+        android:textAlignment="center"
+        android:text="Faisal Sanusi"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0b0b0b"
+        android:textSize="20sp"
+        android:layout_marginTop="500sp"
+        android:textAlignment="center"
+        android:text="Director ICT"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0b0b0b"
+        android:textSize="20sp"
+        android:layout_marginTop="520sp"
+        android:textAlignment="center"
+        android:text="Coalition of Northern Groups (CNG)"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0b0b0b"
+        android:textSize="18sp"
+        android:layout_marginTop="900sp"
+        android:textAlignment="center"
+        android:text="Hikmahtech ICT Solutions-07065849064"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp" />
+
+</RelativeLayout>

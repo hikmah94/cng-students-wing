@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    android:padding="5dp"
+    tools:context="ng.org.hikmahtechis.studentswingcng.AboutBot">
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/my_toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:background="?attr/colorPrimary"
+      android:elevation="4dp"
+      android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+      app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+  <ScrollView
+      android:id="@+id/card_scrollview"
+      android:layout_width="match_parent"
+      android:fadeScrollbars="true"
+      android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        cardview:cardUseCompatPadding="true"
+        android:layout_gravity="center_horizontal"
+        cardview:cardBackgroundColor="@color/white"
+        cardview:cardElevation="4dp"
+        cardview:cardCornerRadius="5dp">
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:paddingTop="35dp"
+            android:src="@drawable/bot"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#0b0b0b"
+            android:textSize="20sp"
+            android:layout_marginTop="10sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Dr. Nastura Ashir Sheriff"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#E40909"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="The Chairman"
+            android:textAllCaps="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#0b0b0b"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Board of Trustees (BOT) Coalition of Northern Groups (CNG)"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp" />
+
+
+      </LinearLayout>
+    </androidx.cardview.widget.CardView>
+      <androidx.cardview.widget.CardView
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          cardview:cardUseCompatPadding="true"
+          android:layout_gravity="center_horizontal"
+          cardview:cardElevation="4dp"
+          cardview:cardBackgroundColor="@color/white"
+          cardview:cardCornerRadius="5dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:gravity="top"
+            android:background="@drawable/banner"
+            android:orientation="vertical"
+            android:padding="8dp"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0B6641"
+              android:textSize="30sp"
+              android:layout_marginTop="29sp"
+              android:textStyle="bold"
+              android:textAlignment="center"
+              android:text="Summary"
+              android:textAllCaps="true"
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:layout_marginTop="10sp"
+              android:text=" "
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="20sp"
+              android:layout_marginTop="10sp"
+              android:text="Nastura A. Sheriff is a political and human rights activist who has set for himself a mission to  change the plight of young generations in Northern Nigerian and philanthropist with a difference. "
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:layout_marginTop="10sp"
+              android:text="Sheriff has since become a strong voice for speaking up against general political and economic abuse, other forms of violence and discrimination against common man."
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:layout_marginTop="10sp"
+              android:text="He continues to build incredible footprints that will continue to guide policy decisions, as well as being a compass for building a more tolerable, empathetic and equitable society."
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="15sp"
+              android:layout_marginTop="10sp"
+              android:text="He is leader of unparalleled experience, molding young minds into exceptional vessels of knowledge."
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:textStyle="bold"
+              android:layout_marginTop="10sp"
+              android:text="Sheriff is an honest and sincere individual, friendly and rapport, dependable and sociable, lovable and jovial, initiator and supporter of peace, passionate defender of the truth, distinguished and honourable gentleman, noble and eloquent speaker, egalitarian in disposition, indispensable and unassuming, diamond in the heart of cluster rocks, skilful strategist and gratefully outflanking."
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:textStyle="bold"
+              android:layout_marginTop="10sp"
+              android:text="His skills include Project management, Innovation, Political Strategist, Service-focused, Strong decision maker, Peace building, Complex problem solver, Adept at delivering effective and engaging talks and presentations to a broad range of audiences and a good manager of People who thrives in situations where he can meet people, have informal conversations and offer assistance to them."
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:textStyle="bold"
+              android:layout_marginTop="10sp"
+              android:text="SHe obtained several  Certifications from different institutions and trainings which include Institute for crises Resolution Peace Building and Conciliation, Certificate of participation on Conflict management, Prevention and resolution skills, Certificate of participation on Alternative Dispute Resolution and Restorative justice, Certificate of participation on Conflict Management, Resolution and Transformation, Certificate of participation on Crisis management and security Awareness skills -Certificate of participation on conflict management, prevention and Resolution skill. The United States institute of peace Certificate of Conflict Analysis."
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+
+        </LinearLayout>
+      </androidx.cardview.widget.CardView>
+      <androidx.cardview.widget.CardView
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          cardview:cardUseCompatPadding="true"
+          android:layout_gravity="center_horizontal"
+          cardview:cardElevation="4dp"
+          cardview:cardBackgroundColor="@color/white"
+          cardview:cardCornerRadius="5dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:gravity="top"
+            android:background="@drawable/banner"
+            android:orientation="vertical"
+            android:padding="8dp"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0B6641"
+              android:textSize="30sp"
+              android:layout_marginTop="29sp"
+              android:textStyle="bold"
+              android:textAlignment="center"
+              android:text="Experience"
+              android:textAllCaps="true"
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:layout_marginTop="10sp"
+              android:text="1999-2002 -National Director of Mobilization Democracy watch movement."
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="20sp"
+              android:layout_marginTop="10sp"
+              android:text="2001 -Founder/Director of Organization and Coordination of Arewa Youth development Foundation."
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:layout_marginTop="10sp"
+              android:text="2002 -2006 -Director of Campaign Buhari Youth Mobilization 2003-2006 Member Buhari/Okadigbo Presidential Campaign Council. "
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:layout_marginTop="10sp"
+              android:text="2003-2006 Chairman board of trustees Arewa Students Forum. "
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="15sp"
+              android:layout_marginTop="10sp"
+              android:text="2004-2017 -Special Assistant to Alh Yusuf Maitama Sule. "
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:textStyle="bold"
+              android:layout_marginTop="10sp"
+              android:text="2006- Co Founder Conference of Nigerian students in Defense for Democracy."
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:textStyle="bold"
+              android:layout_marginTop="10sp"
+              android:text="2007 Director Youth and Students Mobilization DPP Presidential Campaign Organization."
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:textStyle="bold"
+              android:layout_marginTop="10sp"
+              android:text="2008- Co founder/President General Arewa citizens action for change. "
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:textStyle="bold"
+              android:layout_marginTop="10sp"
+              android:text="2011- Director Youth and Support Groups Aliyu Gusau Presidential Campaign Team."
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:textStyle="bold"
+              android:layout_marginTop="10sp"
+              android:text="2008-2012 President African Youth Development Federation AYF Accra. "
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:textStyle="bold"
+              android:layout_marginTop="10sp"
+              android:text="2013-Foundation member Northern Elders Forum. "
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:textStyle="bold"
+              android:layout_marginTop="10sp"
+              android:text="2013- Present Director Youths and Mobilization Northern Elders Forum. "
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:textStyle="bold"
+              android:layout_marginTop="10sp"
+              android:text="2017- Present Founder/Chairman Board of Trustees Coalition of Northern Groups"
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:textStyle="bold"
+              android:layout_marginTop="10sp"
+              android:text=" "
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+        </LinearLayout>
+      </androidx.cardview.widget.CardView>
+      <androidx.cardview.widget.CardView
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          cardview:cardUseCompatPadding="true"
+          android:layout_gravity="center_horizontal"
+          cardview:cardElevation="4dp"
+          cardview:cardBackgroundColor="@color/white"
+          cardview:cardCornerRadius="5dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:gravity="top"
+            android:background="@drawable/banner"
+            android:orientation="vertical"
+            android:padding="8dp"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0B6641"
+              android:textSize="30sp"
+              android:layout_marginTop="29sp"
+              android:textStyle="bold"
+              android:textAlignment="center"
+              android:text="Education"
+              android:textAllCaps="true"
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:layout_marginTop="10sp"
+              android:text="IBTL University Togo Degree in International Relations."
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="20sp"
+              android:layout_marginTop="10sp"
+              android:text="Post Graduate Diploma on Strategic Management and Leadership Stretford University United Kingdom (in View)."
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:layout_marginTop="10sp"
+              android:text="Institute for Crisis Resolution Peace Building and Conciliation – ICRPC."
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#0b0b0b"
+              android:textSize="17sp"
+              android:layout_marginTop="10sp"
+              android:text="Fellowship Fellow - Institute for Crisis Resolution Peace Building and Conciliation."
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="5dp" />
+
+        </LinearLayout>
+      </androidx.cardview.widget.CardView>
+      <androidx.cardview.widget.CardView
+          android:id="@+id/groups2h"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="bottom"
+          android:layout_marginTop="1dp"
+          android:clickable="true"
+          android:foreground="?android:attr/selectableItemBackground"
+          cardview:cardCornerRadius="1dp"
+          cardview:cardElevation="3dp"
+          cardview:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/container"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            tools:ignore="MergeRootFrame">
+
+          <com.google.android.gms.ads.AdView
+              android:id="@+id/ad_view"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:layout_alignParentBottom="true"
+              ads:adSize="BANNER"
+              ads:adUnitId="@string/banner_ad_unit_id" />
+        </RelativeLayout>
+      </androidx.cardview.widget.CardView>
+    </LinearLayout>
+  </ScrollView>
+
+</LinearLayout>

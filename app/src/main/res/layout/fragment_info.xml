@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    android:padding="5dp"
+    tools:context="ng.org.hikmahtechis.studentswingcng.Info">
+
+    <ScrollView
+        android:id="@+id/card_scrollview"
+        android:layout_width="match_parent"
+        android:fadeScrollbars="true"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardBackgroundColor="@color/white"
+                cardview:cardElevation="4dp"
+                cardview:cardCornerRadius="5dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:gravity="top"
+                    android:background="@drawable/banner"
+                    android:orientation="vertical"
+                    android:padding="8dp"/>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="250dp"
+                        android:paddingTop="35dp"
+                        android:src="@drawable/sw_app"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="4dp"
+                cardview:cardBackgroundColor="@color/white"
+                cardview:cardCornerRadius="5dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:gravity="top"
+                    android:background="@drawable/banner"
+                    android:orientation="vertical"
+                    android:padding="8dp"/>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0B6641"
+                        android:textSize="30sp"
+                        android:layout_marginTop="29sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:text="The Pledge"
+                        android:textAllCaps="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="I pledge to convert my present suffering into the joy of future generations of this nation"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="20sp"
+                        android:layout_marginTop="10sp"
+                        android:text="To give my very best to the current efforts of nation-building by sacrificing for a greater Nigeria."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="To stand for the advancement of political education as cornerstone for building a strong pillar of new leaders, to replace the current incompetent, selfish, unpatriotic and corrupt system."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="To preserve accountability of government for a better, more equitable future that we shall build, through our present spirit of sacrifice, and consistency with the Rule of Law, and democratic ethics."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="15sp"
+                        android:layout_marginTop="10sp"
+                        android:text="To ensure a strengthened future built on qualitative education for unparalleled socio-political and economic advancement in Africa."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10sp"
+                        android:text="So help me God."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardBackgroundColor="@color/white"
+                cardview:cardElevation="4dp"
+                cardview:cardCornerRadius="5dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:gravity="top"
+                    android:background="@drawable/banner"
+                    android:orientation="vertical"
+                    android:padding="8dp"/>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0B6641"
+                        android:textSize="30sp"
+                        android:layout_marginTop="29sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:text="Our mission"
+                        android:textAllCaps="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="To provide for the emergence of new set of credible leaders in a new social and political order."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardBackgroundColor="@color/white"
+                cardview:cardElevation="4dp"
+                cardview:cardCornerRadius="5dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:gravity="top"
+                    android:background="@drawable/banner"
+                    android:orientation="vertical"
+                    android:padding="8dp"/>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0B6641"
+                        android:textSize="30sp"
+                        android:layout_marginTop="29sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:text="our vision"
+                        android:textAllCaps="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="The vision is a college of Education with full capacity and facilities capable of ensuring conventional University standard and levels of teachers for development of education sector and manpower of Niger State."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                cardview:cardUseCompatPadding="true"
+                cardview:cardBackgroundColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="4dp"
+                cardview:cardCornerRadius="5dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:gravity="top"
+                    android:background="@drawable/banner"
+                    android:orientation="vertical"
+                    android:padding="8dp"/>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0B6641"
+                        android:textSize="30sp"
+                        android:layout_marginTop="29sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:text="Our vision"
+                        android:textAllCaps="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:textStyle="bold"
+                        android:text="To mobilize the youth as natural and legitimate custodians of power to utilize same in entrenching qualitative, accountable and sustainable leadership for the future."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                cardview:cardUseCompatPadding="true"
+                cardview:cardBackgroundColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="4dp"
+                cardview:cardCornerRadius="5dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:gravity="top"
+                    android:background="@drawable/banner"
+                    android:orientation="vertical"
+                    android:padding="8dp"/>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0B6641"
+                        android:textSize="30sp"
+                        android:layout_marginTop="29sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:text="Yankari Declaration"
+                        android:textAllCaps="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:textStyle="bold"
+                        android:text="August 2021"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="The Coalition of Northern Groups (CNG) National Executives and students wing officials met at Yankari from 27th to 30th August, 2021 and declared the takeoff of the MAITAMA SULE LEADERSHIP LECTURE SERIES for young Northerners who make up more than half of the region's population, now frustrated with the status quo, to gain real opportunities to participate in political processes, take control of their destiny, and foster a positive leadership change at all levels."
+                        android:layout_gravity="center_horizontal|end"
+                        android:layout_marginLeft="5dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                cardview:cardUseCompatPadding="true"
+                cardview:cardBackgroundColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="4dp"
+                cardview:cardCornerRadius="5dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:gravity="top"
+                    android:background="@drawable/banner"
+                    android:orientation="vertical"
+                    android:padding="8dp"/>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0B6641"
+                        android:textSize="30sp"
+                        android:layout_marginTop="29sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:text="My Message to You"
+                        android:textAllCaps="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:textStyle="bold"
+                        android:text="By Nastura Ashir Shariff"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="Resist the temptation to live in perpetual blame of past generations that failed you;  rise up now to save your generation and ensure that you do not fail the next generation"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="As you are all aware, Nigeria's journey to nationhood is today at a crossroads with the northern region at the receiving end."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="The North in particular, today suffers from multiple and intersecting challenges, especially of the nature of selfish leadership, poverty, insecurity, and indeed everything that make life difficult for a people."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="These obvious leadership lapses tend to hint at the imperative of denying Northerners national leadership positions in future elections."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="Taking advantage of this confusion amongst our leaders, southern forces are now quietly cornering all the available national economic opportunities for the benefit of their people and abandoning us to an uncertain fate."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="Time for Nigeria and the North in particular, to wake up to the reality of transforming the situation and building our tomorrow is now."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="As elders we have done what we could, by drawing attention to our current precarious situation and challenging the confusion and incompetence of the people who pose as our leaders today."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:text="What remains is to galvanize the energy of the youth to change our thinking and choice of leaders to democratically replace the present backward political culture alongside the insensitive nature of our people in positions of authority."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="You have a duty to inspire this change; to fire the imagination of other youth in the country and indeed your region for a return to the glorious days of the North."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="You have the key to the future because you all have the synergy,  intellectual stance, good  physical bodies and the moral support to lead all that is required for change. In Northern Nigeria of yesterday, students were the leading light in shaping leadership, economic policy, academic policy; cultural and social change."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="AIn those good old days, the North didn't have the kind of huge number of university graduates that we have today. It logically follows, therefore, that given this comparative educational advantage that we have today, we are supposed to be better off."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:text="Why are we not? It is because those in positions of authority today deliberately avoided giving educated young men like you the opportunity to prove your potentials. They would rather whip up ethnic and religious sentiments as campaign manifesto and push you to the front burner of their power tussle. After winning the elections, they shut their doors at you."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="Now is the time for you to say enough is enough. It's the time for you to develop your own agenda of salvaging the nation and the North from self-centered and incompetent leaders that are ruining us by mortgaging our future."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="As young educated Northerners, you have the historical duty of launching a democratic rescue mission to stop the abuse of power and abuse of office by people who call themselves our representatives."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="The North shall remain doomed if young people like you with sound academic advantages should fold their arms and merely watch its ruin by insensitive political leadership."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="The late Danmasanin Kano, nurtured philosophy that seeks to strengthen new thinking in the North: the need for mentoring of the young ones to tackle the region's problems with sound ideas of modern governance. Up to the time of his last breath on this earth, he kept hammering on grooming young, energetic and brilliant young men who are virile and could  indeed lead the North."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="It is now your turn as young and able-bodied men  to end the deliberate political culture of marginalization of the North in the scheme of things in this country today."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="Many elders in the region today, by the grace of the late Danmasanin Kano's Philosophy, have accepted the truth that only the youth can set the agenda of a better modern  Nigeria nay the North."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:text="On our part, we will try to do our very best to ensure you deliver on your assignments as illustrious sons and daughters of North, who will see our geographical, religious and ethnic differences as our sources of strength."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="I urge you to maintain the zeal for sacrifice for the North and the nation in general. Get prepared for the challenges of reclaiming the cultural values that bind us together and the patriotic spirit of placing the North at the top of the ladder of economic advancement in today's Nigeria."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0b0b0b"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10sp"
+                        android:text="You are our hope, the guardians of a journey to a new nation and new Northern Nigeria, where we will be stakeholders of equal opportunity in a federation; where our future is well-secured. I pray we all live to witness this special moment."
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/groups2h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="1dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                cardview:cardCornerRadius="1dp"
+                cardview:cardElevation="3dp"
+                cardview:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/container"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    tools:ignore="MergeRootFrame">
+
+                    <com.google.android.gms.ads.AdView
+                        android:id="@+id/ad_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        ads:adSize="BANNER"
+                        ads:adUnitId="@string/banner_ad_unit_id" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
